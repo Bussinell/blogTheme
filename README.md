@@ -57,6 +57,11 @@ dove ``` <username> ``` è il vostro username, al posto di ``` <token> ``` bisog
 3. Aggiungere il nuovo file nell'area di staging
 4. Sincronizzare l'area di staging con il repository locale (usando un messaggio di commit congruo)
 5. Sincronizzare il repository remoto con quello locale
+6. Per aggiungere un file utilizzare il comando ```git add ```, invece se si vuole aggiungere una serie di file utilizzare il comando ``` git add * ```
+7. ``` git commit -m "first commit" ```
+8. ``` git remote add origin https://github.com/Bussinell/blogTheme.git ```
+9. ``` git branch -M main ```
+10. ``` git push -u origin main ```
 # Inserire immagini nel README.md
 Aggiungere l'immagine ``` img.jpg ``` al progetto ed inserirla nel testo con il seguente comando: ``` ![](img.png) ```
 # Inserire sezioni
